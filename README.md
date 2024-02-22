@@ -1,19 +1,21 @@
-#NetflixGpt
+# NetflixGpt
 -create-react app
 -config TailwingCss
 
 
-#Features
+# Features
 -Login
    -Sign In/ Sign up Form
    -Redirect to Browse Page
+
 -Browse(After authentication)
- -Header
-   -Main Movie
-     -Tailer in Background
-     -Title & Description 
-      -Movie Suggestions
-        -Movie List
+   -Header
+      -Main Movie
+        -Tailer in Background
+        -Title & Description 
+        -Movie Suggestions
+           -Movie List
+
 -NetflixGPT
   - Search Bar
   - Movie Suggestions
