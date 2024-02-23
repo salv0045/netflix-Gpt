@@ -3,9 +3,20 @@
 
 - create-react app
 - config TailwingCss
+- Routing of App
 - Header
 - Login Form
 - Sign up form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying App to production
+- Create signup User Account
+- Impliment user Sign In UserApi
+- Created Redux Store with userSlice
+- Implemented SignOut
+- Update Profile
+- Fetch from TMDB Movies
 
 
 # Features
@@ -19,7 +30,7 @@
   - Tailer in Background
      - Title & Description 
      - Movie Suggestions
-       - Movie List
+      - Movie List
 
 - NetflixGPT
   - Search Bar
