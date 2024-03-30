@@ -1,10 +1,10 @@
 
 import React, { useRef } from 'react'
-import lang from '../utils/languageConstants';
+import lang from '../../utils/languageConstants';
 import { useDispatch, useSelector } from 'react-redux';
-import openai from '../utils/openai';
-import { API_OPTION } from '../utils/constant';
-import { addGptMovieResult } from '../utils/gptSlice';
+import openai from '../../utils/openai';
+import { API_OPTION } from '../../utils/constant';
+import { addGptMovieResult } from '../../utils/Slices/gptSlice';
 
 
 const GptSearchBar = () => {
@@ -35,7 +35,6 @@ const gptQuery="Act As a Movie Recommendation system and suggest some movies for
     if(!gptResults.choices){
       //TODO: write error handling
     }
-   console.log(gptResults.choices?.[0]?.message?.content);
    const gptMovies =gptResults.choices?.[0]?.message?.content.split(",");
 
    const promiseArray= gptMovies.map( movie=>searchMovieTMDB(movie));

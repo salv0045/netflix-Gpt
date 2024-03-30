@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { API_OPTION } from "../utils/constant";
-import { addUpcomingMovies } from "../utils/moviesSlice";
+import { addUpcomingMovies } from "../utils/Slices/moviesSlice";
 import { useEffect } from "react";
 
 
